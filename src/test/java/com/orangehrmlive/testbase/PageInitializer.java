@@ -1,16 +1,24 @@
 package com.orangehrmlive.testbase;
 
 
-import com.orangehrmlive.pages.LeaveRequestPage;
-import com.orangehrmlive.pages.LoginPage;
+import com.orangehrmlive.pages.*;
 
 public class PageInitializer extends BaseClass {
     public static LoginPage loginPage;
-    public static LeaveRequestPage leaveRequestPage;
+    public static ProductPage productPage;
+    public static YourCartPage yourCartPage;
+    public static CheckoutOverviewPage checkoutOverviewPage;
+    public static CheckoutYourInformationPage checkoutYourInformationPage;
+    public static FinishPage finishPage;
     public static void initialize() {
         // initialize pages
          loginPage = new LoginPage();
-        leaveRequestPage = new LeaveRequestPage();
+        productPage =  new ProductPage();
+        yourCartPage = new YourCartPage();
+        checkoutOverviewPage = new CheckoutOverviewPage();
+        checkoutYourInformationPage = new CheckoutYourInformationPage();
+        finishPage = new FinishPage();
+
 
     }
 }

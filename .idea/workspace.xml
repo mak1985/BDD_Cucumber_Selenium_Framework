@@ -4,45 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b7ab695-b4d7-44b1-b737-1c257ff8d41f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/helpers/AlertHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/helpers/BrowserHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/helpers/ButtonHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/helpers/CheckBoxOrRadioButtonHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/helpers/DropDownHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/helpers/ExcelHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/helpers/ExcelUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/helpers/GenericHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/helpers/JavaScriptHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/helpers/LinkHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/helpers/NavigationHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/helpers/WaitHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/pages/LeaveRequestPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/runners/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/stepdefinition/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/stepdefinition/LeaveRequestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/stepdefinition/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/testbase/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/testbase/PageInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/utils/CommonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/utils/ConfigsReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/configs/configurations.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver1.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/LeaveRequest.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" afterDir="false" />
+    <list default="true" id="4b7ab695-b4d7-44b1-b737-1c257ff8d41f" name="Changes" comment="Initial setup">
+      <change afterPath="$PROJECT_DIR$/screenshotsfailed/Users should able to order product successfully2023_07_02_10_59_191688275759618.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshotspassed/Users should able to order product successfully2023_07_02_10_58_591688275739509.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshotspassed/Users should able to order product successfully2023_07_02_10_59_361688275776282.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshotspassed/Users should able to order product successfully2023_07_02_11_00_001688275800335.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/pages/CheckoutOverviewPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/pages/CheckoutYourInformationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/pages/FinishPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/pages/ProductPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/pages/YourCartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/stepdefinition/SwaglabE2ETest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/SwaglabsE2E.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/helpers/CheckBoxOrRadioButtonHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/helpers/CheckBoxOrRadioButtonHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/pages/LeaveRequestPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/runners/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/stepdefinition/LeaveRequestTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/stepdefinition/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/stepdefinition/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/testbase/PageInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/testbase/PageInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orangehrmlive/utils/CommonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/configs/configurations.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/configs/configurations.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/LeaveRequest.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,20 +59,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "H:/orangehrmlive_bdd_framework_v1/orangehrmlive/src/test",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;H:/orangehrmlive_bdd_framework_v1/orangehrmlive/src/test&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\orangehrmlive_bdd_framework_v1\orangehrmlive\src\test" />
@@ -101,7 +86,65 @@
       <recent name="com.orangehrmlive.runners" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Users should able to order product successfully">
+    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="GLUE" value="com.orangehrmlive.stepdefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="orangehrmlive" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: SwaglabsE2E" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SwaglabsE2E.feature" />
+      <option name="GLUE" value="com.orangehrmlive.stepdefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="orangehrmlive" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: SwaglabsE2E" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User should able to login with valid credential" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LoginWithMultipleUsers.feature" />
+      <option name="GLUE" value="com.orangehrmlive.stepdefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="orangehrmlive" />
+      <option name="NAME_FILTER" value="^User should able to login with valid credential$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User should able to login with valid credential$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User should able to login with valid credential" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: User should able to login with valid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
@@ -122,15 +165,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User should able to see the leave list of employees" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Users should able to order product successfully" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ApplyLeave.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SwaglabsE2E.feature" />
       <option name="GLUE" value="com.orangehrmlive.stepdefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="orangehrmlive" />
-      <option name="NAME_FILTER" value="^User should able to see the leave list of employees$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User should able to see the leave list of employees$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User should able to see the leave list of employees" />
+      <option name="NAME_FILTER" value="^Users should able to order product successfully$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Users should able to order product successfully$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Users should able to order product successfully" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -142,25 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="orangehrmlive" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.orangehrmlive.runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.orangehrmlive.runners" />
-      <option name="MAIN_CLASS_NAME" value="com.orangehrmlive.runners.TestRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Cucumber Java.Scenario: User should able to see the leave list of employees" />
+        <item itemvalue="Cucumber Java.Scenario: Users should able to order product successfully" />
+        <item itemvalue="Cucumber Java.Feature: SwaglabsE2E" />
+        <item itemvalue="Cucumber Java.Scenario: User should able to login with valid credential" />
+        <item itemvalue="Cucumber Java.Feature: Login" />
         <item itemvalue="Cucumber Java.Scenario: User should able to login with valid credentials" />
       </list>
     </recent_temporary>
@@ -179,5 +209,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial setup" />
   </component>
 </project>

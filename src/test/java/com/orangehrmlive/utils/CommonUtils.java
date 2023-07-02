@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.time.Duration;
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
@@ -358,6 +359,7 @@ public class CommonUtils extends PageInitializer {
     public void refresh() {
         driver.navigate().refresh();
     }
+
     /**
      * helper method to wait for element
      *

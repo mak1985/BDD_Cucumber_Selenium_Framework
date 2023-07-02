@@ -9,32 +9,36 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage extends CommonUtils {
 
-    @FindBy(xpath="//input[@placeholder='Username']")
+    @FindBy(className = "form_input")
     public WebElement username;
 
-    @FindBy(xpath="//input[@type=\"password\"]")
+    @FindBy(xpath = "//input[@type=\"password\"]")
     public WebElement password;
 
-    @FindBy(xpath="//button[@type=\"submit\"][text()=' Login ']")
+    @FindBy(className = "btn_action")
     public WebElement loginButton;
 
-//    public void enterUserName(String uname)
-//    {
-//        username.sendKeys(uname);
-//    }
-//
-//    public void enterPassword(String pwd)
-//    {
-//        password.sendKeys(pwd);
-//    }
+    @FindBy()
+    public WebElement verify_home_page;
 
+    public void enterUserName(String uname){
+        username.sendKeys(uname);
+    }
 
-    //dasdasdasdsadas
+    public void enterUserPassword(String pwd){
+        password.sendKeys(pwd);
+    }
 
     public void clickOnLoginButton()
     {
         loginButton.click();
     }
+
+    public void currentPage()
+    {
+
+    }
+
 
     public LoginPage()
     {

@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features/LeaveRequest.feature",
+        features = "src/test/resources/features",
         glue = "com/orangehrmlive/stepdefinition",
         dryRun = false, //If true then check if all steps are mapped with feature or not //If false then try to execute the test class
         tags = "",

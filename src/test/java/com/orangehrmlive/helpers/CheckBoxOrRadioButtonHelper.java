@@ -16,14 +16,14 @@ public class CheckBoxOrRadioButtonHelper extends CommonUtils {
 		
 	}
 	
-	public boolean isIselected(WebElement element) {
+	public boolean isSelected(WebElement element) {
 		boolean flag = element.isSelected();
 		return flag;
 	}
 	
-	public boolean isIselected(By locator)
+	public boolean isSelected(By locator)
 	{
-		return isIselected(driver.findElement(locator));
+		return isSelected(driver.findElement(locator));
 	}
 	
 	
